@@ -373,17 +373,22 @@ function getInfoPage(int $idPagina)
 }
 
 // LLAMANDO DATOS DEL MODELO  POST
+
 function getPageRout(string $ruta)
 {
     require_once("Libraries/Core/Mysql.php");
     $con = new Mysql();
-    $sql = "SELECT * from post where ruta = '{$ruta}' and status !=0 ";
+    $sql = "SELECT * from modulo where ruta = '{$ruta}' and estado !=0 ";
     $request = $con->select($sql);
+    // si tiene imagen
+    /*
     if (!empty($request)) {
         $request['portada'] = $request['portada'] != "" ? media() . "/images/uploads/" . $request['portada'] : "";
     }
+    */
     return $request;
 }
+
 
 /** FUNCION  PARA  MOSTRAR PAGINAS DE CONTACTO Y OTROS */
 function viewPage(int $idPagina)

@@ -1,3 +1,12 @@
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
+
+
 .headerRegister, .header-primary{
 	background: #009688;
 	color: #FFF;
@@ -10,6 +19,20 @@
 
 .upimg, .notBlock{
 	display: none !important;
+}
+
+/*estilos para la columnas de la tabla*/
+.textcenter{
+	text-align: center;
+}
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.bootstrap-select > .dropdown-toggle{
+	border: 1px solid #CCC;
 }
 
 /*Estilos login*/
@@ -33,4 +56,28 @@
 	color: red;
 	font-size: 13pt;
 	font-weight: bold;
+}
+
+/* ESTILSO PARA ERROR DE PAGINA */
+.page-error {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-height: calc(100vh - 100px);
+	margin-bottom: 0;
+}
+.page-error h1{
+	margin:10px;
+	color: #dc3545;
+	font-size: 42px;
 }

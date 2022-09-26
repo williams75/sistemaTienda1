@@ -19,7 +19,8 @@
    <!-- Data table plugin-->
    <script type="text/javascript" src="<?= media(); ?>/js/plugins/jquery.dataTables.min.js"></script>
    <script type="text/javascript" src="<?= media(); ?>/js/plugins/dataTables.bootstrap.min.js"></script>
-
+   <!-- Form  -->
+   <script type="text/javascript" src="<?= media(); ?>/js/plugins/bootstrap-select.min.js"></script>
 
    <script type="text/javascript" language="javascript" src="<?= media(); ?>/js/plugins/1.5.2-dataTables.buttons.min.js"></script>
    <script type="text/javascript" language="javascript" src="<?= media(); ?>/js/plugins/3.1.3-jszip.min.js"></script>
