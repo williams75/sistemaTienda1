@@ -1,0 +1,29 @@
+.dt-buttons{
+    padding-top: 50px;
+}
+
+/*table mostrar cat 10*/
+.dataTables_length{
+    display: flex;
+}
+.dataTables_length label{
+    font-weight: normal;
+text-align: left;
+white-space: nowrap;
+}
+.dataTables_length label select{
+    width: 75px;
+    display: inline-block;
+}
+/*  dataTable Filtrado*/
+.dataTables_filter label{
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.dataTables_filter input{
+    margin-left: 0.5em;
+display: inline-block;
+width: auto;
+}
